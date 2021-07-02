@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/listsellcode"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:text="20210000001"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/listselldate"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:text="DATE"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/listsellcname"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:text="Dishaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:id="@+id/listselluom"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:text="can"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/listsellqty"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/listsellrate"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/listsellamt"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+    <View
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="none">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StockActivity">
+
+    <TextView
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/totalprofit"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="10dp"
+        android:layout_below="@id/totalprofit"
+        android:id="@+id/stocktitle"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/liststockcode"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="20dp"
+                    android:text="Material Code\nMaterial Name"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+                <TextView
+                    android:id="@+id/liststockuom"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="20dp"
+                    android:text="UOM"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="20dp"
+                    android:text="QTY"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="20dp"
+                    android:text="PROFIT"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        <View
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@id/stocktitle"
+        android:id="@+id/stocklist"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+</RelativeLayout>
+</HorizontalScrollView>

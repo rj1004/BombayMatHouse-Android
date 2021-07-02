@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Purchase Material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/codename"
+        android:inputType="textCapCharacters"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/purchaseverndorname"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="textCapCharacters"
+        android:hint="Vendor Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/purchaseqty"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:hint="QTY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/purchaserate"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:hint="RATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/purchaseamt"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        android:hint="AMT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/purchasebtn"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Purchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

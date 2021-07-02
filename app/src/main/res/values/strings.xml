@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Bombay Mat House</string>
+
+    <array name="uomlist">
+        <item>KGS</item>
+        <item>NOS</item>
+        <item>PKT</item>
+        <item>CAN</item>
+        <item>GMS</item>
+        <item>LTR</item>
+        <item>CARBOY</item>
+        <item>TIN</item>
+        <item>BOTTLE</item>
+    </array>
+
+    <array name="monthlist">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </array>
+
+
+    <integer-array name="yearlist">
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+    </integer-array>
+</resources>
